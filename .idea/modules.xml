@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/EscherConverter.iml" filepath="$PROJECT_DIR$/.idea/EscherConverter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EscherConverter.iml" filepath="$PROJECT_DIR$/EscherConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/EscherConverterHeal.iml" filepath="$PROJECT_DIR$/.idea/EscherConverterHeal.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
     </modules>
   </component>

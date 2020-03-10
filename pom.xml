@@ -20,7 +20,7 @@
 	<description>EscherConverter is a stand-alone program that reads files created with the graphical network editor Escher and converts them to files in community standard formats.</description>
 
 	<properties>
-		<jdk.version>1.8</jdk.version>
+		<jdk.version>13</jdk.version>
 		<maven.build.timestamp.format>yyyy</maven.build.timestamp.format>
 		<year>${maven.build.timestamp}</year><!-- This property is used for filtering 
 			the variable ${year} in some resource files -->
@@ -268,6 +268,9 @@
 					<configuration>
 						<source>${jdk.version}</source>
 						<target>${jdk.version}</target>
+						<compilerArgs>
+							<arg>--add-exports java.xml/com.sun.org.apache.xerces.internal.impl.dv.util=ALL-UNNAMED</arg>
+						</compilerArgs>
 					</configuration>
 				</plugin>
 
